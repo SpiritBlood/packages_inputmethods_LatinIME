@@ -1502,6 +1502,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                 || codePoint == Constants.CODE_CLOSING_CURLY_BRACKET
                 || codePoint == Constants.CODE_CLOSING_ANGLE_BRACKET
                 || codePoint == Constants.CODE_PLUS
+                || codePoint == Constants.CODE_PERCENT
                 || Character.getType(codePoint) == Character.OTHER_SYMBOL;
     }
 
